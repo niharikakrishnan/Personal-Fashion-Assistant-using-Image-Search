@@ -1,0 +1,14 @@
+##
+## Script Name: preProcess.yaml
+## Description: Config file for pre processing
+##
+
+# Static Config vairables for Pre Processing
+DATASET_PATH: '../input/fashion-product-images-dataset/fashion-dataset/'
+IMGS_CSV_FILE: 'images.csv'
+STYLES_CSV_FILE: 'styles.csv'
+IMGS_FLDR_PATH: '../input/fashion-product-images-dataset/fashion-dataset/images/'
+STYLES_FLDR_PATH: '../input/fashion-product-images-dataset/fashion-dataset/styles/'
+CASC_PATH: '../input/pretrained-models/haarcascade_frontalface_default.xml'
+# MODEL_PATH: '../input/pretrained-models/haarcascade_frontalface_default.xml'
+TOP_WEAR_FILE: '../input/tmp-files/'
