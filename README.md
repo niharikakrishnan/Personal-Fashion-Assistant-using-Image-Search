@@ -1,1 +1,1 @@
-# Personal-Fashion-Assistant-Using-Visual-Search
+# Fashion-Recommendation-Using-Visual-Search
