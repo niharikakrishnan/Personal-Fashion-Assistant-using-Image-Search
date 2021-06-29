@@ -22,14 +22,14 @@ learning_rate: 0.001
 model_save_filepath: "./multi_label_model_{epoch:02d}.h5"
 early_stopping_patience: 3
 epochs: 50
-final_model_save_path: "./models/xception_model.h5"
+final_model_save_path: "/docker_data/models/xception_model.h5"
 dataset_shuffle: 'Y'
 training: 'Y'
 multi_label_prediction_results: "results.csv"
 extract_embeddings: 'Y'
 feature_list: './features/xception_features.pickle'
 filename_list: './features/xception_filenames.pickle'
-feature_filename_dict: "./features/xception_feature_filename_dict.pickle"
+feature_filename_dict: "/docker_data/indexes/xception_feature_filename_dict.pickle"
 problem_images: ['39403.jpg', '39410.jpg', '39401.jpg', '39425.jpg', '12347.jpg']
 
 # dataset_nm: "styles.csv"
@@ -38,5 +38,5 @@ input_path: '/kaggle/input/fashion-dataset-resized/'
 imgs_path: '/kaggle/input/fashion-dataset-resized/fashion-dataset-resized-noface-256/fashion-dataset-resized-noface-256/images/'
 
 # Index path
-index_path: './index/xception_faiss_index.index'
-annoy_index_path: './index/xception_annoy_index.index'
+faiss_index_path: '/docker_data/indexes/xception_faiss_index.index'
+annoy_index_path: '/docker_data/indexes/xception_annoy_index.index'

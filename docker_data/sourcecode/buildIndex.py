@@ -10,7 +10,7 @@ import pandas as pd
 import faiss
 import yaml
 
-model_config_yaml = open('/kaggle/input/config/modelBuild.yaml', 'r')
+model_config_yaml = open('/docker_data/config/modelBuild.yaml', 'r')
 config = yaml.load(model_config_yaml, Loader=yaml.FullLoader)
 model_config_yaml.close()
 
